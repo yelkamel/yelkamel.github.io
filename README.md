@@ -1,7 +1,5 @@
+Un site fait en ReactJS avec Gatsby pour présenter LaYouCeferie.
 
-## Install
-- `yarn install`
-
-## Run
-- In development: `npm run develop`.
-- Static build: `npm run build`.
+Notament aussi les applications suivantes:
+-Socially Fox
+-SwiPolitique
