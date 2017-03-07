@@ -8,6 +8,16 @@
   left: 0;
   z-index: var(--zIndexMenu);
 }
+.particlesStyle {
+  z-index:1;
+  position: absolute;
+  top: 0;
+  flex:1
+}
+
+.inTheParticles {
+  z-index:2
+}
 
 .disable {
   composes: menu;

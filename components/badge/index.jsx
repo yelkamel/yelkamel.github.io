@@ -20,8 +20,8 @@ export default class Badge extends Component {
 
   render() {
     return (
-      <div >
-        <div class={styles.badgeStyle}>
+      <div className={styles.badgeContainer}>
+        <div className={styles.badgeStyle}>
           <ReactAppStoreBadge
             textHeading="Disponible sur"
             textStoreName="AppleStore"

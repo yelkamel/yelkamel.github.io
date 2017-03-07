@@ -15,9 +15,9 @@
   --colorHeaderIcon: #fff;
 
   /* Z Index Scale */
-  --zIndexHeader: 2;
-  --zIndexMenu: 3;
-  --zIndexHamburger: 4;
+  --zIndexHeader: 4;
+  --zIndexMenu: 5;
+  --zIndexHamburger: 6;
 }
 
 @custom-media --small (max-width: 767px);

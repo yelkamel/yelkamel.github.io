@@ -11,6 +11,17 @@
 
 }
 
+.particlesStyle {
+  z-index:1;
+  position: absolute;
+  top: 0;
+  flex:1
+}
+
+.inTheParticles {
+  z-index:2
+}
+
 .intro h1 {
   font-size: 2.75rem;
 }

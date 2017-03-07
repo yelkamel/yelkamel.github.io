@@ -1,22 +1,10 @@
-import React, { Component } from 'react';
-import { prefixLink } from 'gatsby-helpers';
-
-import Fullscreen from 'components/fullscreen';
-import Meta from 'components/meta';
-import Wrapper from 'components/wrapper';
-import { Link } from 'react-router';
-
-import styles from './styles.module.css';
-
-import Particles from 'react-particles-js';
-
-const PARTICLES = {
+{
   "particles": {
     "number": {
-      "value": 5,
+      "value": 80,
       "density": {
         "enable": true,
-        "value_area": 1000
+        "value_area": 800
       }
     },
     "color": {
@@ -66,14 +54,14 @@ const PARTICLES = {
     },
     "move": {
       "enable": true,
-      "speed": 2,
-      "direction": "top",
-      "random": true,
+      "speed": 12,
+      "direction": "none",
+      "random": false,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
       "attract": {
-        "enable": true,
+        "enable": false,
         "rotateX": 600,
         "rotateY": 1200
       }
@@ -83,11 +71,11 @@ const PARTICLES = {
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true,
+        "enable": false,
         "mode": "repulse"
       },
       "onclick": {
-        "enable": false,
+        "enable": true,
         "mode": "push"
       },
       "resize": true
@@ -107,8 +95,8 @@ const PARTICLES = {
         "speed": 3
       },
       "repulse": {
-        "distance": 300,
-        "duration": 0.6
+        "distance": 400,
+        "duration": 0.4
       },
       "push": {
         "particles_nb": 4
@@ -119,38 +107,4 @@ const PARTICLES = {
     }
   },
   "retina_detect": true
-}
-
-export default class Index extends Component {
-  render() {
-
-
-    return (
-      <div>
-        <Meta />
-
-        <Fullscreen className={styles.intro} firstItem>
-          <div className={styles.particlesStyle}>
-            <Particles params={PARTICLES}/>
-            </div>
-
-            <Wrapper className={styles.inTheParticles}>
-            <h1>
-              LaYouCeferie.
-              <br />
-              <br />
-              C'est des applications qui t'aideront sûrement dans ta <Link className={styles.link} to={prefixLink('/work/')}>vie</Link>.
-              <br />
-              <br />
-              Après si tu veux un mini résumé de ma <Link className={styles.link} to={prefixLink('/about/')}>vie</Link>.
-              <br />
-              <br />
-              Sinon on peux aussi directement <Link className={styles.link} to={prefixLink('/contact/')}>bavarder</Link>.
-            </h1>
-            </Wrapper>
-
-        </Fullscreen>
-      </div>
-    );
-  }
 }

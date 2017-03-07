@@ -23,13 +23,10 @@ export default class About extends Component {
               je suis maintenant en freelance travaillant pour moi et pour les autres.
               Si vous avez un projet en tete, <Link to={prefixLink('/contact/')}>n'hésité pas a me contacter</Link>.</p>
 
-            <h2>Compétences techniques</h2>
-            <h4>Langage </h4>
-            <p>ReactJS, React-Native, JAVA</p>
-            <h4>Server</h4>
-            <p>Express, Node, SQL</p>
-            <h4>Other</h4>
-            <p>Git, Svn</p>
+            <h2>Qu'est-ce que je veux ?</h2>
+            <p>J'aimerais intégré une start-up avec une idée inovante et donc la principal technologies utilisé est le <OutboundLink to="https://facebook.github.io/react/">React</OutboundLink>.</p>
+            <p>Dans l'idée, j'aimerais aussi pouvoir proposer mes idées que ce soit du point de vue technologique que fonctionnelle.</p>
+
 
             <h2>Que disent les gens de moi ?</h2>
 
