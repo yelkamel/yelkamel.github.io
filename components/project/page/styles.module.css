@@ -12,16 +12,6 @@
   padding-top: 10vh;
 }
 
-.mrRed {
-  composes: mrRed from "../themes.module.css";
-  composes: page;
-}
-
-.ahm {
-  composes: ahm from "../themes.module.css";
-  composes: page;
-}
-
 .Swiperie {
   composes: Swiperie from "../themes.module.css";
   composes: page;

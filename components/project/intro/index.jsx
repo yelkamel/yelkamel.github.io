@@ -11,7 +11,11 @@ export default class ProjectIntro extends Component {
     media: PropTypes.node,
     project: PropTypes.object,
   };
-
+/*
+{cta || (
+  <OutboundLink to={project.cta.link}>{project.cta.text}</OutboundLink>
+)}
+*/
   render() {
     const { cta, media, project } = this.props;
 
@@ -20,9 +24,6 @@ export default class ProjectIntro extends Component {
         <div className={styles.intro}>
           <h1>{project.title}</h1>
           <p>{project.clientDescription || project.description}</p>
-          {cta || (
-            <OutboundLink to={project.cta.link}>{project.cta.text}</OutboundLink>
-          )}
         </div>
         <div className={styles.media}>
           {media}

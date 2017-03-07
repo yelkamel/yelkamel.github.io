@@ -32,27 +32,6 @@
   padding-right: 0;
 }
 
-.mrRed {
-  composes: panel;
-  composes: mrRed from "../themes.module.css";
-}
-
-.mrRed .inner {
-  background-image: url('../img/mr-red.png');
-  background-position-x: 15%;
-  background-size: auto 50%;
-}
-
-.ahm {
-  composes: panel;
-  composes: ahm from "../themes.module.css";
-}
-
-.ahm .inner {
-  background-image: url('../img/ahm.png');
-  background-position-x: 80%;
-  background-size: auto 50%;
-}
 
 .Swiperie {
   composes: panel;
