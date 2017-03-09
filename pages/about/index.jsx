@@ -26,14 +26,14 @@ export default class About extends Component {
             <h2>Qu'est-ce que je veux ?</h2>
             <p>J'aimerais intégré une start-up avec une idée inovante et donc la principal technologies utilisé est le <OutboundLink to="https://facebook.github.io/react/">React</OutboundLink>.</p>
             <p>Dans l'idée, j'aimerais aussi pouvoir proposer mes idées que ce soit du point de vue technologique que fonctionnelle.</p>
-
+            <p>Tant que je n'ai pas trouvé la boite de mes rêves, je suis disponible pour faire de simple application (3 mois grand max)</p>
 
             <h2>Que disent les gens de moi ?</h2>
 
-            <h4>Monsieurs TOTO</h4>
+            <h4>Monsieurs DELABRIE</h4>
             <p>“Youcef est quelqu'un de très dynamique qui sait mettre une bonne ambiance dans une équipes.”</p>
 
-            <h4>Monsieurs TATA</h4>
+            <h4>Monsieurs TERLE</h4>
             <p>“Toujours envie de se surpasser, Youcef ne lache pas l'affaire tant qu'il est sur de ne pas pouvoir y arriver.”</p>
           </div>
         </Wrapper>

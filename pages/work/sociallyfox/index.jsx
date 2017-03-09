@@ -76,12 +76,12 @@ export default class SociallyFox extends Component {
           googleUrl={project.googleUrl}
           >
           <h3>Qu’est-ce que c’est ?</h3>
-          <p>Sans rentrer dans le details de la sciences comportementales, au faite les differences entre quelqu'un d'influent et populaire ne sont pas innée ou liée à la fortune mais plutot par certain comportement qui aime les autres à les écouters ou bien à les aimers.</p>
+          <p>Sans rentrer dans les détails de la science comportementale, les différences entre quelqu'un d'influent ou de populaire ne sont pas innées ou liées à la fortune mais plutôt par certains comportements.<br/>
+          Ces comportements sont expliqués dans Socially Fox et défini comme des astuces sociales sont inspirées de coachs et livres américains.
+          </p>
           <p>Par exemple, dans Socially Fox on commence par y expliquer comment un simple hochement de tête peut influencer votre interlocuteur et l'on progresse vers des astuces plus complexes comme la communication narrative. </p>
-          <h3>Mais est-ce que cela va m'interesser ?</h3>
-          <p>Aimez-vous être entourer ? Vous n'aimez pas la solitude ? Cette application vous aidera a améliorié vos relation amicale.</p>
-          <p>De plus elle vous donnera une capacité d'adaptation énorme pour pouvoir parler avec n'importe qui !</p>
-          <p>Et enfin, certaines techniques de manipulation utilisé par les beaux commerciaux des grand écoles y est aussi expliqué.</p>
+          <h3>Mais est-ce que cela va m'intéresser ?</h3>
+          <p>Aimez-vous être entouré de gens ? Aimez-vous qu'on vous accepte vos demandes ? <br/> si oui, cette application est faite pour vous.</p>
         </ProjectDescription>
       </ProjectPage>
     );

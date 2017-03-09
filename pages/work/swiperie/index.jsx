@@ -75,14 +75,14 @@ export default class Swiperie extends Component {
           <p>L'application permet de trier différentes cartes contenant les tweets de vos candidats préférés.
             <br /> Ensuite un classement est généré avec des statistiques détaillées.</p>
           <p>Les tweets sont les paroles directes des candidats sans interprétation médiatique.
-            <br /> Swipez dans le Métro ! l'application est disponible même sans connexion Internet.</p>
+            <br /> Swipez dans le Métro ! L'application est disponible même sans connexion Internet.</p>
 
-              <h3>Pourquoi 1 euros ?</h3>
+              <h3>Pourquoi 1 euro ?</h3>
               <p>Pour une meilleure démocratie, vos statistiques ne seront pas utilisées afin de créer un sondage quelconque.
               </p>
               <h3>Après les présidentielle 2017 ?</h3>
               <p>SwiPolitique deviendra SwipNews ! <br />
-              Vous pourrez swper entre les tweets des différents grand journeaux tel que LeFigaro, Libération, LeMonde et plein d'autres.</p>
+              Vous pourrez swiper entre les tweets des différents grand journeaux tel que LeFigaro, Libération, LeMonde et plein d'autres.</p>
         </ProjectDescription>
       </ProjectPage>
     );

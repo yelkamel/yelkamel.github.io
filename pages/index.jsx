@@ -8,7 +8,7 @@ import { Link } from 'react-router';
 import Typist from 'react-typist';
 
 import styles from './styles.module.css';
-
+import TweenMax from 'gsap'
 import Particles from 'react-particles-js';
 
 const PARTICLES = {
@@ -123,6 +123,27 @@ const PARTICLES = {
 }
 
 export default class Index extends Component {
+
+  componentWillUpdate (nextProps, nextState){
+
+  }
+
+
+  componentDidMount() {
+    /*
+    var mySplitText = new SplitText(this.textAnimation, {type:"words,chars"})
+    var chars = mySplitText.chars;
+    var tl = new TimelineLite (mySplitText, chars)
+
+    TweenLite.set(this.textAnimation, {perspective:400});
+    tl.to(chars, 0.8, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut}, 0.01, "+=0");
+    */
+  }
+
+  componentWillReceiveProps (nextProps) {
+
+  }
+
   render() {
     const CURSOR = {
   show: false,
@@ -130,38 +151,36 @@ export default class Index extends Component {
   element: '|',
   hideWhenDone: false,
   hideWhenDoneDelay: 1000,
-}
-
-    return (
-      <div>
-        <Meta />
-
+  }
+  return (
+    <div>
+      <Meta />
         <Fullscreen className={styles.intro} firstItem>
           <div className={styles.particlesStyle}>
             <Particles params={PARTICLES}/>
-            </div>
+          </div>
 
-            <Wrapper className={styles.inTheParticles}>
-            <Typist
-              avgTypingDelay= {40}
-              cursor={CURSOR}>
-            <h1>
-              Salut, moi c'est Youcef.
-              <br />
-              <br />
-              Je vous présente mes <Link className={styles.link} to={prefixLink('/work/')}>applications</Link>
-              <br />
-              <br />
-              avec un petit <Link className={styles.link} to={prefixLink('/about/')}>résumé</Link>
-              <br />
-              <br />
-              Et un moyen de me <Link className={styles.link} to={prefixLink('/contact/')}>contacter</Link>.
-            </h1>
+          <Wrapper className={styles.inTheParticles}>
+          <Typist
+            avgTypingDelay= {40}
+            cursor={CURSOR}>
+          <h1>
+            Salut, moi c'est Youcef.
+            <br />
+            <br />
+            Je vous présente mes <Link className={styles.link} to={prefixLink('/work/')}>applications</Link>
+            <br />
+            <br />
+            avec un petit <Link className={styles.link} to={prefixLink('/about/')}>résumé</Link>
+            <br />
+            <br />
+            Et un moyen de me <Link className={styles.link} to={prefixLink('/contact/')}>contacter</Link>.
+          </h1>
           </Typist>
-            </Wrapper>
+          </Wrapper>
 
-        </Fullscreen>
-      </div>
-    );
+      </Fullscreen>
+    </div>
+  );
   }
 }

@@ -48,7 +48,7 @@ export default class Header extends Component {
         <Wrapper>
           <div className={styles.inner}>
             <h1 className={styles.title}>
-              <IndexLink to={prefixLink('/')}>LaYouCeferie</IndexLink>
+              <IndexLink to={prefixLink('/')}>EL KAMEL</IndexLink>
             </h1>
             <ul className={styles.social}>
               <li>

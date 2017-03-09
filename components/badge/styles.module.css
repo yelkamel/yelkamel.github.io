@@ -4,5 +4,6 @@
 .badgeStyle {
   display: flex;
   flex-direction: column;
-  justify-content: center
+  justify-content: center;
+  margin-bottom: calc(var(--gutter) * 0.8);
 }
