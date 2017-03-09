@@ -9,7 +9,9 @@
         "text": "Voir dans le store"
       },
       "slug": "sociallyfox",
-      "title": "Socially Fox"
+      "title": "Socially Fox",
+      "appleUrl":  "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1207978654&mt=8",
+      "googleUrl": "https://play.google.com/store/apps/details?id=com.sociallyfox"
     },
     {
       "className": "Swiperie",
@@ -20,7 +22,9 @@
         "text": "Voir dans le store"
       },
       "slug": "swiperie",
-      "title": "SwiPolitique"
+      "title": "SwiPolitique",
+      "appleUrl": "https://itunes.apple.com/us/app/swipolitique/id1211013703?mt=8",
+      "googleUrl": "https://play.google.com/store/apps/details?id=com.swipolitique"
     }
   ]
 }

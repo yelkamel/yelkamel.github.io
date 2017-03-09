@@ -5,6 +5,7 @@ import Fullscreen from 'components/fullscreen';
 import Meta from 'components/meta';
 import Wrapper from 'components/wrapper';
 import { Link } from 'react-router';
+import Typist from 'react-typist';
 
 import styles from './styles.module.css';
 
@@ -123,7 +124,13 @@ const PARTICLES = {
 
 export default class Index extends Component {
   render() {
-
+    const CURSOR = {
+  show: false,
+  blink: true,
+  element: '|',
+  hideWhenDone: false,
+  hideWhenDoneDelay: 1000,
+}
 
     return (
       <div>
@@ -135,18 +142,22 @@ export default class Index extends Component {
             </div>
 
             <Wrapper className={styles.inTheParticles}>
+            <Typist
+              avgTypingDelay= {40}
+              cursor={CURSOR}>
             <h1>
-              LaYouCeferie.
+              Salut, moi c'est Youcef.
               <br />
               <br />
-              C'est des applications qui t'aideront sûrement dans ta <Link className={styles.link} to={prefixLink('/work/')}>vie</Link>.
+              Je vous présente mes <Link className={styles.link} to={prefixLink('/work/')}>applications</Link>
               <br />
               <br />
-              Après si tu veux un mini résumé de ma <Link className={styles.link} to={prefixLink('/about/')}>vie</Link>.
+              avec un petit <Link className={styles.link} to={prefixLink('/about/')}>résumé</Link>
               <br />
               <br />
-              Sinon on peux aussi directement <Link className={styles.link} to={prefixLink('/contact/')}>bavarder</Link>.
+              Et un moyen de me <Link className={styles.link} to={prefixLink('/contact/')}>contacter</Link>.
             </h1>
+          </Typist>
             </Wrapper>
 
         </Fullscreen>

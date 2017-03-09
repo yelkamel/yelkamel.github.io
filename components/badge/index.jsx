@@ -20,7 +20,6 @@ export default class Badge extends Component {
 
   render() {
     return (
-      <div className={styles.badgeContainer}>
         <div className={styles.badgeStyle}>
           <ReactAppStoreBadge
             textHeading="Disponible sur"
@@ -35,7 +34,6 @@ export default class Badge extends Component {
             icon={<Icon name="googleplay" />}
             url={this.props.googlePlayUrl}
           />
-        </div>
       </div>
     );
   }

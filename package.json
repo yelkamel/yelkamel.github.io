@@ -8,10 +8,13 @@
     "classnames": "^2.2.5",
     "gatsby": "^0.12.38",
     "history": "^2.0.2",
+    "react-addons-css-transition-group": "^15.4.2",
     "react-app-store-badge": "^1.0.2",
     "react-ga": "^2.1.2",
     "react-github-button": "^0.1.10",
-    "react-helmet": "^3.1.0"
+    "react-helmet": "^3.1.0",
+    "react-motion": "^0.4.7",
+    "react-typist": "^1.0.3"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.0",

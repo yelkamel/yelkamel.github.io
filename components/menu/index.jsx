@@ -142,15 +142,14 @@ export default class Menu extends Component {
         <Wrapper className={styles.inTheParticles}>
           <nav>
             <ul>
-
               <li className={styles.item}>
-                <Link {...linkProps} to={prefixLink('/work/')}>Les applications</Link>
+                <Link {...linkProps} to={prefixLink('/work/')}>Application</Link>
               </li>
               <li className={styles.item}>
-                <Link {...linkProps} to={prefixLink('/about/')}>Le mini résumé</Link>
+                <Link {...linkProps} to={prefixLink('/about/')}>Résumé</Link>
               </li>
               <li className={styles.item}>
-                <Link {...linkProps} to={prefixLink('/contact/')}>Me contacter</Link>
+                <Link {...linkProps} to={prefixLink('/contact/')}>Contact</Link>
               </li>
             </ul>
           </nav>
