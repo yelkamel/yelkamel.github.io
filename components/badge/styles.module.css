@@ -1,9 +1,0 @@
-@import '../../assets/css/variables.css';
-
-
-.badgeStyle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: calc(var(--gutter) * 0.8);
-}
